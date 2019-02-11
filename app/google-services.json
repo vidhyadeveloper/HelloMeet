@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "305231539046",
+    "firebase_url": "https://hellomeet-2e0a2.firebaseio.com",
+    "project_id": "hellomeet-2e0a2",
+    "storage_bucket": "hellomeet-2e0a2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:305231539046:android:c5f0299c1493d449",
+        "android_client_info": {
+          "package_name": "hellomeet.vdartvidhya.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "305231539046-4acarn6420n9oru801lsjptnakq7tkuv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "hellomeet.vdartvidhya.com",
+            "certificate_hash": "66a0da86485ee5eb40f36a8e863e3375733b1e92"
+          }
+        },
+        {
+          "client_id": "305231539046-i70ja7hmr7u08dvt0h0irs27vp0g2okd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPGaQv45tbpuMTw7-DtkIZzqdfG1yXuDk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "305231539046-i70ja7hmr7u08dvt0h0irs27vp0g2okd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

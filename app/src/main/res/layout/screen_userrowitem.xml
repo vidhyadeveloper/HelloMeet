@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:orientation="horizontal"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/tvIcon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/rounded_drawable"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="A"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <TextView
+            android:drawableLeft="@drawable/ic_person_black_24dp"
+            android:id="@+id/tvusername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:drawablePadding="5dp"
+            android:text="Username" />
+
+        <TextView
+            android:id="@+id/tvemail"
+            android:drawablePadding="5dp"
+            android:textColor="@color/white"
+            android:drawableLeft="@drawable/fui_ic_mail_white_24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:text="Email" />
+    </LinearLayout>
+</LinearLayout>
